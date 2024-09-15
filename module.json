@@ -1,0 +1,20 @@
+{
+  "id": "carpe-dms-pf2e-weapon-durability",
+  "title": "Carpe DM's PF2e Weapon Durability",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "Adds hit points and durability to PF2e Item Sheets.",
+  "authors": [
+    {
+      "name": "Carpe DM",
+      "discord": "_carpedm",
+      "flags": {}
+    }
+  ],
+  "socket": true,
+  "scripts": ["scripts/main.js"],
+  "systems": ["pf2e"]
+}

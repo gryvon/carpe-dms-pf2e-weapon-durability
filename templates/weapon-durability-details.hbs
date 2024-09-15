@@ -1,0 +1,16 @@
+<fieldset class="durabilty">
+<legend>Durability</legend>
+    <div class="form-group">
+        <label for="field-{{ weapon.appId }}-hp">{{localize "PF2E.HitPointsHeader"}}</label>
+        <div class="form-fields">
+            <input id="field-{{ weapon.appId }}-hp" type="number" name="system.hp.value" data-property="system.hp.value"value="{{weapon.object.system.hp.value}}" />
+            /
+            <input type="number" name="system.hp.max" data-property="system.hp.max" value="{{weapon.object.system.hp.max}}" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="field-{{ weapon.appId }}-hardness">{{localize "PF2E.HardnessLabel"}}</label>
+        <input type="number" id="field-{{ weapon.appId }}-hardness" name="system.hardness" data-property="system.hardness" value="{{weapon.object.hardness}}" />
+    </div>
+</fieldset>
