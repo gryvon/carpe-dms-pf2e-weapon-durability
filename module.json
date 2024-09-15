@@ -6,7 +6,7 @@
     "minimum": "12",
     "verified": "12"
   },
-  "description": "Adds hit points and durability to PF2e Item Sheets.",
+  "description": "Adds hit points and hardness to PF2e Weapon Sheets.",
   "authors": [
     {
       "name": "Carpe DM",
