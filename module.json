@@ -1,7 +1,7 @@
 {
   "id": "carpe-dms-pf2e-weapon-durability",
   "title": "Carpe DM's PF2e Weapon Durability",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
