@@ -36,9 +36,6 @@
   "scripts": [
     "scripts/main.js"
   ],
-  "systems": [
-    "pf2e"
-  ],
   "manifest": "https://raw.githubusercontent.com/gryvon/carpe-dms-pf2e-weapon-durability/main/module.json",
   "download": "https://github.com/gryvon/carpe-dms-pf2e-weapon-durability/raw/main/releases/carpe-dms-pf2e-weapon-durability.0.0.1.zip",
   "url": "https://github.com/gryvon/carpe-dms-pf2e-weapon-durability"
