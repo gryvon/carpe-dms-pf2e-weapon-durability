@@ -1,10 +1,22 @@
 {
   "id": "carpe-dms-pf2e-weapon-durability",
   "title": "Carpe DM's PF2e Weapon Durability",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.3.0",
+          "verified": "6.4.0"
+        }
+      }
+    ]
   },
   "description": "Adds hit points and hardness to PF2e Weapon Sheets.",
   "authors": [
@@ -14,9 +26,19 @@
       "flags": {}
     }
   ],
-  "socket": true,
-  "scripts": ["scripts/main.js"],
-  "systems": ["pf2e"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "scripts": [
+    "scripts/main.js"
+  ],
+  "systems": [
+    "pf2e"
+  ],
   "manifest": "https://raw.githubusercontent.com/gryvon/carpe-dms-pf2e-weapon-durability/main/module.json",
   "download": "https://github.com/gryvon/carpe-dms-pf2e-weapon-durability/raw/main/releases/carpe-dms-pf2e-weapon-durability.0.0.1.zip",
   "url": "https://github.com/gryvon/carpe-dms-pf2e-weapon-durability"
